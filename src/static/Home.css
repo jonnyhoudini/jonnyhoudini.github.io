@@ -29,6 +29,11 @@ main {
     margin-right: 5px;
 }
 
+.icon:hover {
+    color: white;
+}
+
+
 .header {
     font-weight: 900;
     font-size: 3em;

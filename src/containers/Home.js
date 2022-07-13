@@ -19,7 +19,14 @@ const Home = () => {
                     <div className="intro">
                         <TypeAnimation
                             cursor={true}
-                            sequence={["I'm a junior developer", 1000, '']}
+                            sequence={[
+                                "I'm a junior developer",
+                                2000,
+                                'This is my portfolio',
+                                2000,
+                                'Get in touch!',
+                                2000
+                            ]}
                             wrapper="h2"
                             repeat={3}
                         />
