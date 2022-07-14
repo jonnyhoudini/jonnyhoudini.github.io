@@ -50,3 +50,65 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.bullets {
+    display: flex;
+}
+
+.icon-light-big {
+    font-size: 4.1rem;
+    color: white;
+    margin-right: 5px;
+}
+
+.icon-light-big:hover {
+    color: rgba(62, 212, 176);
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-CV:hover {
+    background-color: rgba(62, 212, 176);
+    border-color: rgba(62, 212, 176);
+}
+
+.codeclan-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.profile {
+    float: right;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid rgba(62, 212, 176);
+}
+
+.about-container {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.transparent-bg-about {
+    background: rgba(62, 212, 176, 0.6);
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+}
