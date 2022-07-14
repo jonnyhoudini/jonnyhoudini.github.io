@@ -36,7 +36,7 @@ const ProjectCarousel = () => {
                 />
 
                 <Carousel.Caption className="outer-caption">
-                    <Link to="/Marko" className="link">
+                    <Link to="/BBC" className="link">
                         <h3>BBC Educational App</h3>
                         <p>App to help teach young children about dinosaurs</p>
                     </Link>
@@ -50,7 +50,7 @@ const ProjectCarousel = () => {
                 />
 
                 <Carousel.Caption className="outer-caption">
-                    <Link to="/Marko" className="link">
+                    <Link to="/RPS" className="link">
                         <h3>Rock, Paper, Scissors</h3>
                         <p>
                             Classic game with simple UI
