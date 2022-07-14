@@ -19,7 +19,7 @@ const NavbarComponent = () => {
 
                 <Link to="/" className="logo">JHM</Link>
                 <Link to="/about">About Me</Link>
-                <Link to="/skills">Skills</Link>
+                {/* <Link to="/skills">Skills</Link> */}
                 <Link to="/projects">Projects</Link>
                 <a href="javascript:void(0);" className="icon" onClick={handleClick}>
                     <i className="fa fa-bars"></i>

@@ -1,28 +1,33 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
+import '../static/Carousel.css'
 
 
 const ProjectCarousel = () => {
 
-    const captionStyles = {
-        color: 'rgba(62, 212, 176)',
-        backgroundColor: 'black',
-        padding: '2px',
-    }
+
+    // const handleClick = () => {
+    //     setSelectMarko(!selectMarko);
+    // }
 
     return (
-        <Carousel variant="dark" className="carousel">
+        <Carousel variant="light" className="carousel">
+
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src="https://i.ibb.co/0KVbf7R/marko.png"
                     alt="First slide"
                 />
-                <Carousel.Caption style={captionStyles}>
-                    <h3>Marko Expenses Tracker</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <Carousel.Caption className="outer-caption">
+                    <Link to="/Marko" className="link">
+                        <h3>Marko Expenses Tracker</h3>
+                        <p>Tracks business-related expenditure for busy professionals</p>
+                    </Link>
                 </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
                 <img
                     className="d-block w-100"
@@ -30,9 +35,11 @@ const ProjectCarousel = () => {
                     alt="Second slide"
                 />
 
-                <Carousel.Caption style={captionStyles}>
-                    <h3>BBC Educational App</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Carousel.Caption className="outer-caption">
+                    <Link to="/Marko" className="link">
+                        <h3>BBC Educational App</h3>
+                        <p>App to help teach young children about dinosaurs</p>
+                    </Link>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -42,11 +49,13 @@ const ProjectCarousel = () => {
                     alt="Third slide"
                 />
 
-                <Carousel.Caption style={captionStyles}>
-                    <h3>Rock, Paper, Scissors Game</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                <Carousel.Caption className="outer-caption">
+                    <Link to="/Marko" className="link">
+                        <h3>Rock, Paper, Scissors</h3>
+                        <p>
+                            Classic game with simple UI
+                        </p>
+                    </Link>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
