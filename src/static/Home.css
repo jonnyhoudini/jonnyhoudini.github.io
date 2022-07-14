@@ -36,7 +36,9 @@ main {
 
 .header {
     font-weight: 900;
-    font-size: 3em;
+    font-size: 4em;
+    color: black;
+    text-align: center;
 }
 
 .intro {

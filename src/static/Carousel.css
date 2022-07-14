@@ -1,0 +1,22 @@
+.outer-caption {
+    background-color: black;
+    padding: 2px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(62, 212, 176);
+}
+
+.outer-caption:hover {
+    background-color: rgba(62, 212, 176, 0.6);
+}
+
+.link:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.carousel {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
