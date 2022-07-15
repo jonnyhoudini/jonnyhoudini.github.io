@@ -22,7 +22,7 @@ const About = () => {
                         <p>My name is Jonny and I'm a career change junior developer based in Glasgow, Scotland.</p>
                         <p>I love learning new things and working with people. I have over a decade of experience working for charities and in progressive politics where I’ve organised campaigns and lobbied senior politicians on issues like climate change, infrastructure and international development. </p>
                         <h2 className="heading">My road to code</h2>
-                        <p>My passion for learning eventually led me to start teaching myself how to code and I soon fell in love with the idea of making stuff with code that can solve real problems. In May 2022 I started a 16-week intensive course in Professional Software Development at <a className="codeclan-link" href="https://codeclan.com/">CodeClan</a> - Scotland's first digital skills academy. </p>
+                        <p>I started teaching myself how to code as a hobby but I soon fell in love with the idea of making stuff with code that can solve real problems. In May 2022 I started a 16-week intensive course in Professional Software Development at <a className="codeclan-link" href="https://codeclan.com/">CodeClan</a> - Scotland's first digital skills academy. </p>
                         <p>Taking on a big career change is never an easy decision, but I'm so glad I did and I'm looking forward to continue to grow and build on all the skills I've learned over the past four months.</p>
                         <p>I'm now on the hunt for a Junior Developer role to continue my journey in tech after graduation in late August.</p>
                         <h2 className="heading">Technical Skills</h2>
@@ -50,7 +50,7 @@ const About = () => {
                             <a className="icon-light-big" href="https://www.linkedin.com/in/jonathan-houdin-mcaveety-392a1153/">{linkedIn}</a>
                             <a className="icon-light-big" href="https://github.com/jonnyhoudini">{github}</a>
                             <a className="icon-light-big" href="mailto:jonny@houd.in">{envelope}</a>
-                            <a className="project-link" href="https://drive.google.com/file/d/1ElOGXkxEjUDCoi1W1NhTpM2ftjkGVRIz/view?usp=sharing"><Button className="btn-CV" variant="light">My CV</Button></a>
+                            <a className="project-link" href="https://drive.google.com/file/d/14FMOEa0wy4kq6amtokzgPQNuPEM8Y7EH/view?usp=sharing"><Button className="btn-CV" variant="light">My CV</Button></a>
                         </div>
                     </div>
                 </div>
