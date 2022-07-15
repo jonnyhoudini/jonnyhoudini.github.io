@@ -11,7 +11,7 @@ const BBC = () => {
                 <div className="project-container">
                     <h1 className="heading">BBC Education App</h1>
                     <p>BBCsaurus was created as a protototype for the BBC's online educational content. The app gives young people the chance to learn about all the different types of dinosaurs.</p>
-                    <p>The app was created as a group project over 5 days alongside <a href="https://www.linkedin.com/in/alisdairsit/">Alisdair Sit</a> and <a href="https://www.linkedin.com/in/ian-wlodarczyk-1578498a/">Ian Wlodarczyk</a> as part of CodeClan's Professional Software Development course.</p>
+                    <p>The app was created as a group project over 5 days alongside <a className="codeclan-link" href="https://www.linkedin.com/in/alisdairsit/">Alisdair Sit</a> and <a className="codeclan-link" href="https://www.linkedin.com/in/ian-wlodarczyk-1578498a/">Ian Wlodarczyk</a> as part of CodeClan's Professional Software Development course.</p>
                     <h2 className="heading">Project Brief</h2>
                     <ul>
                         <li>The user can interact with the flashcards to learn more about each dinosaur.</li>

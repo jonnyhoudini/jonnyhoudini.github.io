@@ -9,7 +9,7 @@ main {
 .transparent-bg {
     background: rgba(62, 212, 176, 0.6);
     background-size: cover;
-    height: 100vh;
+    min-height: 100%;
     position: relative;
     display: flex;
     flex-flow: column wrap;
@@ -99,6 +99,7 @@ main {
     border-radius: 10px;
     width: 80%;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .transparent-bg-about {

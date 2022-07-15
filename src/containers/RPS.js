@@ -10,7 +10,7 @@ const RPS = () => {
             <div className="transparent-bg">
                 <div className="project-container">
                     <h1 className="heading">Rock, Paper, Scissors</h1>
-                    <p>I completed this app as a side project as part of my preparation for joining CodeClan. I have included it here to show the progress I have made since being able to dedicate myself to full-time studying.</p>
+                    <p>This was one of the solo projects I worked on when I was getting ready to join CodeClan. I have included it here to show the progress I have made since being able to dedicate myself to full-time studying.</p>
                     <h2 className="heading">Project Brief</h2>
                     <ul>
                         <li>The user can choose their weapon.</li>
