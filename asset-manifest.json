@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio_2022/static/css/main.033df816.css",
-    "main.js": "/portfolio_2022/static/js/main.219e1b65.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio_2022/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/portfolio_2022/index.html",
-    "main.033df816.css.map": "/portfolio_2022/static/css/main.033df816.css.map",
-    "main.219e1b65.js.map": "/portfolio_2022/static/js/main.219e1b65.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio_2022/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/jonnyhoudini.github.io/static/css/main.033df816.css",
+    "main.js": "/jonnyhoudini.github.io/static/js/main.05c32355.js",
+    "static/js/787.1ed0c42c.chunk.js": "/jonnyhoudini.github.io/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/jonnyhoudini.github.io/index.html",
+    "main.033df816.css.map": "/jonnyhoudini.github.io/static/css/main.033df816.css.map",
+    "main.05c32355.js.map": "/jonnyhoudini.github.io/static/js/main.05c32355.js.map",
+    "787.1ed0c42c.chunk.js.map": "/jonnyhoudini.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.033df816.css",
-    "static/js/main.219e1b65.js"
+    "static/js/main.05c32355.js"
   ]
 }
