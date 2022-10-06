@@ -32,7 +32,7 @@ const About = () => {
                                 <li>UNIX and Git</li>
                                 <li>Object Oriented Programming</li>
                                 <li>Test Driven Development</li>
-                                <li>Database design, creation and querying using SQL</li>
+                                <li>Database design and querying using SQL</li>
                                 <li>HTTP and web programming (Flask)</li>
                             </ul>
                             <ul>
@@ -41,7 +41,7 @@ const About = () => {
                                 <li>Full-stack JavaScript apps (Express, Mongo)</li>
                                 <li>Front-end web framework (React)</li>
                                 <li>Statically typed programming (Java)</li>
-                                <li>Web development with Java</li>
+                                <li>Web development with Java (Spring)</li>
 
                             </ul>
                         </div>
@@ -50,7 +50,7 @@ const About = () => {
                             <a className="icon-light-big" href="https://www.linkedin.com/in/jonathan-houdin-mcaveety-392a1153/">{linkedIn}</a>
                             <a className="icon-light-big" href="https://github.com/jonnyhoudini">{github}</a>
                             <a className="icon-light-big" href="mailto:jonny@houd.in">{envelope}</a>
-                            <a className="project-link" href="https://drive.google.com/file/d/14FMOEa0wy4kq6amtokzgPQNuPEM8Y7EH/view?usp=sharing"><Button className="btn-CV" variant="light">My CV</Button></a>
+                            <a className="project-link" href="https://drive.google.com/file/d/1YhjNhBbkgIvERcadcoAwAAooV1h7GQvC/view?usp=sharing"><Button className="btn-CV" variant="light">My CV</Button></a>
                         </div>
                     </div>
                 </div>

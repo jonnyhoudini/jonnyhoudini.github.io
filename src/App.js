@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Marko from './containers/Marko';
 import BBC from './containers/BBC';
 import RPS from './containers/RPS';
+import Todos from './containers/Todos';
+import Stoic from './containers/Stoic';
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="/marko" element={<Marko />} />
           <Route path="/BBC" element={<BBC />} />
           <Route path="/RPS" element={<RPS />} />
+          <Route path="/Todos" element={<Todos />} />
+          <Route path="/Stoic" element={<Stoic />} />
         </Routes>
       </Router>
 

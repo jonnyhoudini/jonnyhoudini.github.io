@@ -45,6 +45,20 @@ const ProjectCarousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
+                    // src="https://i.ibb.co/7QppmzY/stoic.png"
+                    src="https://i.ibb.co/ZBjxrSZ/Todospic.png"
+                    alt="Todos app"
+                />
+                <Carousel.Caption className="outer-caption">
+                    <Link to="/Todos" className="link">
+                        <h3>Todos</h3>
+                        <p>Plan accessible day trips across Scotland</p>
+                    </Link>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
                     src="https://i.ibb.co/TRSyBzt/rps.png"
                     alt="Third slide"
                 />
@@ -58,6 +72,22 @@ const ProjectCarousel = () => {
                     </Link>
                 </Carousel.Caption>
             </Carousel.Item>
+
+
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://i.ibb.co/7QppmzY/stoic.png"
+                    alt="Stoic quotes app"
+                />
+                <Carousel.Caption className="outer-caption">
+                    <Link to="/Stoic" className="link">
+                        <h3>Stoic Quotes</h3>
+                        <p>Words of wisdom from the ancient Stoic philosophers.</p>
+                    </Link>
+                </Carousel.Caption>
+            </Carousel.Item>
+
         </Carousel>
     )
 }
