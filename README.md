@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The porfolio was created to showcase my projects from CodeClan. The app is live at https://jonnyhoudini.github.io/portfolio_2022/
+The porfolio was created to showcase my projects from CodeClan. The app is live at https://houd.in
 
 ## Getting started
 
