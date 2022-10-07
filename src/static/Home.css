@@ -113,3 +113,21 @@ main {
     align-items: center;
     font-family: 'Barlow', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        text-align: center;
+    }
+
+    .about-container {
+        width: 95%;
+    }
+
+    .profile {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}

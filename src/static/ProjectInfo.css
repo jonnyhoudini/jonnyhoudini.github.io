@@ -26,3 +26,9 @@
 a {
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .project-container {
+        width: 95%;
+    }
+}
